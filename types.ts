@@ -19,6 +19,7 @@ export interface Exercise {
   tips: string;
   icon?: string;
   steps?: string[]; // Detailed breakdown steps
+  videoUrl?: string; // Default video URL (baked into build)
 }
 
 export interface TrainingDay {

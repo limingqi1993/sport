@@ -49,6 +49,7 @@ const EX_GOBLET_SQUAT: Exercise = {
   sets: "3",
   reps: "12",
   tips: "手持哑铃于胸前，强迫胸椎挺直。下蹲时打开膝盖。",
+  videoUrl: "https://search.bilibili.com/all?keyword=高脚杯深蹲教学",
   steps: [
     "双脚略宽于肩站立，双手托住哑铃一端置于胸前。",
     "挺胸收腹，背部挺直，视线平视前方。",
@@ -63,6 +64,7 @@ const EX_GLUTE_BRIDGE: Exercise = {
   sets: "3",
   reps: "15",
   tips: "顶峰收缩臀部2秒。唤醒“失忆”臀肌，对抗骨盆前倾。",
+  videoUrl: "https://search.bilibili.com/all?keyword=臀桥标准动作",
   steps: [
     "仰卧在垫子上，双膝弯曲，双脚分开与髋同宽。",
     "脚跟靠近臀部，手臂平放于身体两侧。",
@@ -77,6 +79,7 @@ const EX_INVERTED_ROW: Exercise = {
   sets: "3",
   reps: "10",
   tips: "强化上背部，对抗圆肩。",
+  videoUrl: "https://search.bilibili.com/all?keyword=反向划船教学",
   steps: [
     "单手持哑铃，另一手扶凳，背部挺直与地面平行。",
     "肩胛骨后缩，手肘贴近身体向后上方拉起哑铃。",
@@ -91,6 +94,7 @@ const EX_DEAD_BUG: Exercise = {
   sets: "3",
   reps: "12",
   tips: "腰部紧贴地面，避免骨盆前倾代偿。",
+  videoUrl: "https://search.bilibili.com/all?keyword=死虫式动作教学",
   steps: [
     "仰卧，手臂伸直指向天花板，双腿屈膝呈90度抬起。",
     "核心用力，强迫下背部死死压住地面。",
@@ -105,6 +109,7 @@ const EX_PUSH_UP: Exercise = {
   sets: "3",
   reps: "力竭",
   tips: "核心收紧，身体成一条直线。",
+  videoUrl: "https://search.bilibili.com/all?keyword=标准俯卧撑教学",
   steps: [
     "双手略宽于肩撑地，双脚并拢，身体呈直线。",
     "核心收紧，避免塌腰或撅臀。",
@@ -120,6 +125,7 @@ const EX_OHP: Exercise = {
   sets: "3",
   reps: "8-10",
   tips: "彭于晏标志性宽肩的核心动作。",
+  videoUrl: "https://search.bilibili.com/all?keyword=站姿哑铃推举",
   steps: [
     "站姿，双手持哑铃举至肩部上方，掌心向前。",
     "核心收紧，保持臀部夹紧以稳定脊柱。",
@@ -134,6 +140,7 @@ const EX_PULL_UP: Exercise = {
   sets: "3",
   reps: "力竭",
   tips: "打造背阔肌宽度，优化腰宽比。",
+  videoUrl: "https://search.bilibili.com/all?keyword=引体向上新手教学",
   steps: [
     "双手宽握单杠，掌心朝前。",
     "肩胛骨下沉（沉肩），启动背阔肌发力。",
@@ -148,6 +155,7 @@ const EX_INCLINE_PRESS: Exercise = {
   sets: "3",
   reps: "10-12",
   tips: "填补上胸薄弱。",
+  videoUrl: "https://search.bilibili.com/all?keyword=上斜哑铃卧推",
   steps: [
     "调整健身椅至30-45度倾角。",
     "仰卧，双手持哑铃置于胸部两侧。",
@@ -162,6 +170,7 @@ const EX_FACE_PULL: Exercise = {
   sets: "4",
   reps: "15",
   tips: "针对后束三角肌，防止含胸，改善体态。",
+  videoUrl: "https://search.bilibili.com/all?keyword=绳索面拉",
   steps: [
     "调整滑轮至头部高度，双手握住绳索。",
     "拇指向后，将绳索拉向面部。",
@@ -176,6 +185,7 @@ const EX_RDL: Exercise = {
   sets: "3",
   reps: "8-10",
   tips: "强化腘绳肌和臀部，对抗久坐带来的肌肉缩短。",
+  videoUrl: "https://search.bilibili.com/all?keyword=哑铃罗马尼亚硬拉",
   steps: [
     "双手持哑铃置于大腿前侧，双脚与髋同宽。",
     "膝盖微屈并锁死角度，臀部向后推。",
@@ -190,6 +200,7 @@ const EX_SPLIT_SQUAT: Exercise = {
   sets: "3",
   reps: "8-10/侧",
   tips: "解决左右肌力不平衡。",
+  videoUrl: "https://search.bilibili.com/all?keyword=保加利亚分腿蹲",
   steps: [
     "背对长凳站立，一只脚脚背搭在凳子上。",
     "前脚向前跨出一步，保持躯干直立。",
@@ -204,6 +215,7 @@ const EX_LEG_RAISE: Exercise = {
   sets: "3",
   reps: "10-15",
   tips: "打造下腹部线条，控制骨盆后倾。",
+  videoUrl: "https://search.bilibili.com/all?keyword=悬垂举腿",
   steps: [
     "悬挂于单杠上，身体静止。",
     "收紧腹肌，卷动骨盆，将双腿抬起。",
@@ -218,6 +230,7 @@ const EX_HIIT_SPRINT: Exercise = {
   sets: "6-10组",
   reps: "30s冲/90s休",
   tips: "跑步、划船机或波比跳。提升胰岛素敏感性。",
+  videoUrl: "https://search.bilibili.com/all?keyword=HIIT冲刺训练",
   steps: [
     "热身5分钟。",
     "全力冲刺30秒，达到最大心率90%以上。",
@@ -232,6 +245,7 @@ const EX_L_SIT: Exercise = {
   sets: "3",
   reps: "力竭",
   tips: "体操力量，建立强大的静态核心。",
+  videoUrl: "https://search.bilibili.com/all?keyword=L支撑教学",
   steps: [
     "双手撑地或使用俯卧撑架。",
     "推起身体，双腿伸直抬起与地面平行。",
@@ -246,6 +260,7 @@ const EX_AB_ROLLER: Exercise = {
   sets: "3",
   reps: "10",
   tips: "极强的抗伸展力量，刺激腹直肌全长。",
+  videoUrl: "https://search.bilibili.com/all?keyword=健腹轮正确做法",
   steps: [
     "跪姿，双手握住健腹轮。",
     "核心收紧，含胸拱背。",
@@ -275,6 +290,7 @@ export const PHASE_1: TrainingPhase = {
       reps: "10秒",
       tips: "促进血液循环。",
       icon: "activity",
+      videoUrl: "https://search.bilibili.com/all?keyword=久坐臀部激活",
       steps: ["坐姿，用力收缩臀大肌。", "保持10秒。", "放松，重复5次。"]
     },
     {
@@ -283,6 +299,7 @@ export const PHASE_1: TrainingPhase = {
       reps: "10次",
       tips: "对抗头部前引。",
       icon: "user",
+      videoUrl: "https://search.bilibili.com/all?keyword=颈部后缩ChinTuck",
       steps: ["保持视线水平。", "下巴水平向后收（挤出双下巴）。", "保持2秒后放松。"]
     }
   ]
@@ -317,6 +334,7 @@ export const PHASE_2: TrainingPhase = {
             sets: "30-45",
             reps: "分钟",
             tips: "快走、慢跑或完全休息。周六可进行主动恢复。",
+            videoUrl: "https://search.bilibili.com/all?keyword=LISS低强度有氧",
             steps: ["保持心率在120-140bpm之间。", "放松身心，缓解肌肉酸痛。"]
         }
       ]
@@ -338,6 +356,7 @@ export const PHASE_3: TrainingPhase = {
         sets: "3",
         reps: "5",
         tips: "模拟李小龙标志性动作，控制下放。",
+        videoUrl: "https://search.bilibili.com/all?keyword=龙旗教学",
         steps: [
             "躺在长凳上，双手抓住头顶后方边缘。",
             "双腿和躯干向上踢起，直至垂直地面（仅肩部着凳）。",

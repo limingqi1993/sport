@@ -14,14 +14,17 @@ const ExerciseCard: React.FC<Props> = ({ exercise, index }) => {
   const [isEditingUrl, setIsEditingUrl] = useState(false);
   const [inputUrl, setInputUrl] = useState('');
 
-  // Load saved URL from local storage on mount
+  // Load saved URL from local storage on mount, or use default from constants
   useEffect(() => {
     const savedUrl = localStorage.getItem(`fit_url_${exercise.name}`);
     if (savedUrl) {
       setVideoUrl(savedUrl);
       setInputUrl(savedUrl);
+    } else if (exercise.videoUrl) {
+      setVideoUrl(exercise.videoUrl);
+      setInputUrl(exercise.videoUrl);
     }
-  }, [exercise.name]);
+  }, [exercise.name, exercise.videoUrl]);
 
   const handleSaveUrl = () => {
     if (inputUrl.trim()) {
@@ -29,7 +32,8 @@ const ExerciseCard: React.FC<Props> = ({ exercise, index }) => {
       setVideoUrl(inputUrl.trim());
     } else {
       localStorage.removeItem(`fit_url_${exercise.name}`);
-      setVideoUrl('');
+      // Revert to default if exists
+      setVideoUrl(exercise.videoUrl || '');
     }
     setIsEditingUrl(false);
   };
